@@ -1,0 +1,6 @@
+[submodule "eatfish_front"]
+	path = eatfish_front
+	url = https://github.com/Karukan0814/eatfish_front
+[submodule "eatfish_back"]
+	path = eatfish_back
+	url = https://github.com/Karukan0814/eatfish_back
