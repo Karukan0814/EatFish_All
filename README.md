@@ -135,11 +135,11 @@ https://twitter.com/keynyaan
 
 ## インフラ構成図
 
-![infrastructure-diagram](https://raw.githubusercontent.com/Karukan0814/eatfish_front/main/public/readme/infrastructure.drawio)
+![infrastructure-diagram](https://raw.githubusercontent.com/Karukan0814/EatFish_All/main/assets/infrastructure.drawio)
 
 ## ER 図
 
-![er-diagram](https://raw.githubusercontent.com/Karukan0814/eat/main/public/readme/Supbase%20Schema.png)
+![er-diagram](https://raw.githubusercontent.com/Karukan0814/EatFish_All/main/assets/Supbase%20Schema.png)
 <a id="screen-transition-diagram"></a>
 
 ## 画面遷移図
