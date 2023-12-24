@@ -2,12 +2,9 @@
 
 # EAT FISH / おいしいお魚情報共有サービス
 
-![service-image](https://raw.githubusercontent.com/Karukan0814/EatFish_All/main/assets/EatFishImg.png)
+![service-image](https://github.com/Karukan0814/EatFish_All/blob/master/assets/EatFishImg.png)
 ![EatFish_Backend](https://img.shields.io/badge/Backend-Node.js%20%3E%3D16.13.0%20%2F%20TypeScript%205.2.2-brightgreen)
 ![EatFish_Frontend](https://img.shields.io/badge/Frontend-TypeScript%3A%205.2.2%20%2F%20React%2018.2.0%20%2F%20Next.js%2013.2.4-blue)
-[![TypeScript](https://img.shields.io/badge/TypeScript-v5.2.2-007ACC?logo=TypeScript&logoColor=007ACC)](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-5-2-2.html)
-[![React](https://img.shields.io/badge/React-v18.2.0-61DAFB?logo=React&logoColor=61DAFB)](https://react.dev/blog/2022/03/29/react-v18#whats-new-in-react-18)
-[![Next.js](https://img.shields.io/badge/Next.js-v13.2.4-000000?logo=Next.js&logoColor=000000)](https://nextjs.org/blog/next-13-2-4)
 [![Docker](https://img.shields.io/badge/Docker-gray?logo=Docker&logoColor=2496ED)](https://www.docker.com)
 [![Firebase](https://img.shields.io/badge/Firebase-gray?logo=Firebase&logoColor=FFCA28)](https://firebase.google.com)
 [![Thanks](https://img.shields.io/badge/Thank%20you-for%20visiting-00aab9)](https://www.eatfish.com)
@@ -135,11 +132,11 @@ Supabase / render / Vercel
 
 ## インフラ構成図
 
-![infrastructure-diagram](https://raw.githubusercontent.com/Karukan0814/EatFish_All/main/assets/infrastructure.drawio)
+![infrastructure-diagram](https://github.com/Karukan0814/EatFish_All/blob/master/assets/infrastructure.drawio)
 
 ## ER 図
 
-![er-diagram](https://raw.githubusercontent.com/Karukan0814/EatFish_All/main/assets/Supbase%20Schema.png)
+![er-diagram](https://github.com/Karukan0814/EatFish_All/blob/master/assets/Supbase%20Schema.png)
 <a id="screen-transition-diagram"></a>
 
 ## 画面遷移図
