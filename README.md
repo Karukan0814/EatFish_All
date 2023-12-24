@@ -132,7 +132,7 @@ Supabase / render / Vercel
 
 ## インフラ構成図
 
-![infrastructure-diagram](https://github.com/Karukan0814/EatFish_All/blob/master/assets/infrastructure.drawio)
+![infrastructure-diagram](https://github.com/Karukan0814/EatFish_All/blob/master/assets/infrastructure.drawio.png)
 
 ## ER 図
 
