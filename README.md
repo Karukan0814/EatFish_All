@@ -1,81 +1,98 @@
 こちらは「HayabusaTrip」のフロントエンドのリポジトリになります。バックエンドのリポジトリは[こちら](https://github.com/keynyaan/hayabusatrip-backend)です。
 
-# HayabusaTrip / 旅行プラン共有サービス
+# EAT FISH / おいしいお魚情報共有サービス
 
-![service-image](https://raw.githubusercontent.com/keynyaan/hayabusatrip-frontend/main/public/images/ogp.png)
-[![CI/CD](https://github.com/keynyaan/hayabusatrip-frontend/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/keynyaan/hayabusatrip-frontend/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/keynyaan/hayabusatrip-frontend/graph/badge.svg?token=LCPY7L2MHO)](https://codecov.io/gh/keynyaan/hayabusatrip-frontend)
-[![Ruby](https://img.shields.io/badge/Ruby-v3.2.2-CC342D?logo=Ruby&logoColor=CC342D)](https://www.ruby-lang.org/ja/news/2023/03/30/ruby-3-2-2-released)
-[![Rails](https://img.shields.io/badge/Rails-v7.0.7.2-CC0000?logo=Ruby-on-Rails&logoColor=CC0000)](https://rubyonrails.org/2023/3/13/Rails-7-0-4-3-and-6-1-7-3-have-been-released)
-[![TypeScript](https://img.shields.io/badge/TypeScript-v5.0.2-007ACC?logo=TypeScript&logoColor=007ACC)](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-5-0.html)
+![service-image](https://raw.githubusercontent.com/Karukan0814/EatFish_All/main/assets/EatFishImg.png)
+![EatFish_Backend](https://img.shields.io/badge/Backend-Node.js%20%3E%3D16.13.0%20%2F%20TypeScript%205.2.2-brightgreen)
+![EatFish_Frontend](https://img.shields.io/badge/Frontend-TypeScript%3A%205.2.2%20%2F%20React%2018.2.0%20%2F%20Next.js%2013.2.4-blue)
+[![TypeScript](https://img.shields.io/badge/TypeScript-v5.2.2-007ACC?logo=TypeScript&logoColor=007ACC)](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-5-2-2.html)
 [![React](https://img.shields.io/badge/React-v18.2.0-61DAFB?logo=React&logoColor=61DAFB)](https://react.dev/blog/2022/03/29/react-v18#whats-new-in-react-18)
-[![Next.js](https://img.shields.io/badge/Next.js-v13.2.4-000000?logo=Next.js&logoColor=000000)](https://nextjs.org/blog/next-13-2)
-[![AWS](https://img.shields.io/badge/Amazon%20AWS-gray?logo=Amazon-AWS&logoColor=FFFFFF)](https://aws.amazon.com)
+[![Next.js](https://img.shields.io/badge/Next.js-v13.2.4-000000?logo=Next.js&logoColor=000000)](https://nextjs.org/blog/next-13-2-4)
 [![Docker](https://img.shields.io/badge/Docker-gray?logo=Docker&logoColor=2496ED)](https://www.docker.com)
 [![Firebase](https://img.shields.io/badge/Firebase-gray?logo=Firebase&logoColor=FFCA28)](https://firebase.google.com)
-[![Thanks](https://img.shields.io/badge/Thank%20you-for%20visiting-00aab9)](https://www.hayabusatrip.com)
+[![Thanks](https://img.shields.io/badge/Thank%20you-for%20visiting-00aab9)](https://www.eatfish.com)
 
 ## サービス概要
 
-HayabusaTrip は、「旅の準備をもっとシンプルにしたい！」という想いから作られた、無料の旅行プラン共有サービスです。
+EAT FISH はおいしいお魚ライフに役立つレシピ記事や魚屋・お取り寄せ先情報を、季節ごとのお魚別に整理したデータベースサービスです。
 
-わずか 3 ステップで旅行プランを共有できる直感的な UI で、ユーザーの面倒な旅行の準備をサポートします。
+ユーザーは食べたいお魚の情報を検索することができます。
 
 ### ▼ サービス URL
 
-https://www.hayabusatrip.com
+https://eatfish-psi.vercel.app/
 
 レスポンシブ対応済のため、PC でもスマートフォンでも快適にご利用いただけます。
 
 ### ▼ 紹介記事(Qiita)
 
-[独学で未経験のモダンな技術を学習してポートフォリオを作るまで【Rails / Next.js / AWS / Docker / GitHub Actions】](https://qiita.com/keynyaan/items/64a350cd409f40895bde)
+TODO 　紹介記事書く
 
 開発背景や、サービスのリリースまでに勉強したことなどをまとめています。
 
 ### ▼ 開発者 Twitter
 
-https://twitter.com/keynyaan
+TODO 　開発者アカウント作成
 
 何かあれば、こちらまでお気軽にご連絡ください。
 
 ## メイン機能の使い方
 
-<table>
-  <tr>
-     <th style="text-align: center">旅行プラン作成</th>
-    <th style="text-align: center">旅行スポット追加</th>
-    <th style="text-align: center">旅行プラン公開</th>
-  </tr>
-  <tr>
-    <td><img src="https://raw.githubusercontent.com/keynyaan/hayabusatrip-frontend/main/public/images/demo/create-trip.gif" alt="旅行プラン作成" />まずは、旅行プラン作成ボタンを押して、各旅行情報を記入後に作成ボタンを押す。</td>
-    <td><img src="https://raw.githubusercontent.com/keynyaan/hayabusatrip-frontend/main/public/images/demo/add-spot.gif" alt="旅行スポット追加" />次に、スポット追加ボタンを押して、各スポット情報を記入後に追加ボタンを押す。</td>
-    <td><img src="https://raw.githubusercontent.com/keynyaan/hayabusatrip-frontend/main/public/images/demo/publish-settings.gif" alt="旅行プラン公開" />最後に、三点リーダーから公開状態の変更ボタンを押して、公開に変更したら完了！</td>
-  </tr>
-</table>
+<br>
+
+## 主な機能
+
+### コア機能（カテゴリ絞り込み・ブックマーク+α）
+
+| カテゴリ絞り込み                                                                                                                    | ブックマーク・いいね                                                                                                                | コメント                                                                                                                                                   |
+| ----------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [![Image from Gyazo](https://i.gyazo.com/f43ddd0aca232a7f5df0a193f51a73c0.gif)](https://gyazo.com/f43ddd0aca232a7f5df0a193f51a73c0) | [![Image from Gyazo](https://i.gyazo.com/8910bd2f80c2bf9e5f65e2cb351c3a38.gif)](https://gyazo.com/8910bd2f80c2bf9e5f65e2cb351c3a38) | [![Image from Gyazo](https://i.gyazo.com/001e2dd07b9512f77945cbdcfa0e25a4.gif)](https://gyazo.com/001e2dd07b9512f77945cbdcfa0e25a4)                        |
+| カテゴリアイコンをタップすることで、そのカテゴリに紐付いた記事一覧が表示されます。                                                  | 記事右下の各種ボタンをタップすることで、ブックマークといいねができます （**ログインユーザー限定**）                                 | コメントボタンをタップすると、モーダルが立ち上がり各記事についたコメントを閲覧できたり、コメントの投稿・編集・削除ができます。（**ログインユーザー限定**） |
+
+<br>
+
+### ユーザー機能
+
+| ログイン                                                                                                                            | マイページ上で記事を管理                                                                                                            |
+| :---------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| [![Image from Gyazo](https://i.gyazo.com/670f1953ffa6efede6bec8c87b1af81a.png)](https://gyazo.com/670f1953ffa6efede6bec8c87b1af81a) | [![Image from Gyazo](https://i.gyazo.com/a3183825d24f38257c3f0b9d2e69fbfa.gif)](https://gyazo.com/a3183825d24f38257c3f0b9d2e69fbfa) |
+| ログインボタンを押すと、モーダルが立ち上がり Google ログインが可能になります。                                                      | マイページ上でブックマークやいいねした記事を管理することができます。                                                                |
+
+<br>
 
 ## 使用技術一覧
 
-**バックエンド:** Ruby 3.2.2 / Rails 7.0.7.2
+**バックエンド:** Node.js 　>=16.13.0 / TypeScript 5.2.2
 
-- コード解析 / フォーマッター: Rubocop
-- テストフレームワーク: RSpec
+- フレームワーク: Express.js (^4.18.2)
+- データベースクライアント: Prisma (^5.5.2)
+- テストフレームワーク: Jest (^29.7.0)
+- HTTP クライアント: Axios (^1.6.1)
+- セキュリティ: Helmet (^7.1.0), JSON Web Tokens (jsonwebtoken) (^9.0.2)
+- ロギング: Morgan (^1.10.0)
+- その他依存関係: Cheerio (^1.0.0-rc.12), CORS (^2.8.5), dotenv (^16.3.1), express-validator (^7.0.1), iconv-lite (^0.6.3)
 
-**フロントエンド:** TypeScript 5.0.2 / React 18.2.0 / Next.js 13.2.4
+**フロントエンド:** TypeScript: 5.2.2 / React 18.2.0 / Next.js 13.2.4
 
-- コード解析: ESLint
-- フォーマッター: Prettier
-- テストフレームワーク: Jest / React Testing Library
-- CSS フレームワーク: Tailwind CSS
-- 主要パッケージ: Axios / Font Awesome / React Paginate / React Responsive Modal / React Toastify
+- スタイリング: @emotion/react 11.11.1, @emotion/styled 11.11.0, @mui/material 5.14.16
+- アイコン: @mui/icons-material 5.14.16
+- HTTP クライアント: axios 1.6.0
+- 状態管理: jotai 2.5.0
+- 認証: firebase 10.5.2-authentification,jsonwebtoken 9.0.2
+- データ保存: firebase 10.5.2-storage
+- フォーム管理: react-hook-form 7.47.0
+- テストフレームワーク: @testing-library/react 14.1.2, jest 29.7.0
 
-**インフラ:** AWS(Route53 / Certificate Manager / ALB / VPC / ECR / ECS Fargate / RDS MySQL / S3) / Nginx / Vercel
+リント / コード解析: eslint 8.52.0, eslint-config-next 14.0.1
+
+**インフラ:**
+Supabase / render / Vercel
 
 **CI / CD:** GitHub Actions
 
-**環境構築:** Docker / Docker Compose
+**テスト環境構築:** Docker
 
-**認証:** Firebase Authentication
+**認証:** Firebase Authentication 　/ jsonwebtoken
 
 ## 主要対応一覧
 
@@ -83,10 +100,8 @@ https://twitter.com/keynyaan
 
 #### 機能
 
-- メールアドレスとパスワードを利用したユーザー登録 / ログイン機能
 - Google アカウントを利用したユーザー登録 / ログイン機能
 - ユーザー情報変更機能
-- パスワード再設定機能
 - 退会機能
 - 旅行プランの取得 / 作成 / 更新 / 削除機能
 - 旅行プランの検索機能
@@ -103,21 +118,6 @@ https://twitter.com/keynyaan
 - モーダル画面(各画面の詳細は[下記](#screen-transition-diagram)の画面遷移図参照)
 - 404 / 500 エラーのカスタム画面
 - レスポンシブデザイン
-
-### 非ユーザー向け
-
-#### システム / インフラ
-
-- Next.js の Image / Link コンポーネントなどの活用によるサービス全体の高速化
-- Docker による開発環境のコンテナ化
-- Route53 による独自ドメイン + SSL 化
-- GitHub Actions による CI / CD パイプラインの構築
-  - バックエンド
-    - CI: Rubocop / RSpec
-    - CD: AWS ECS
-  - フロントエンド
-    - CI: ESLint / Prettier / Jest / Codecov
-    - CD: Vercel
 
 #### テスト / セキュリティ
 
