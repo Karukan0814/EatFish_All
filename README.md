@@ -1,5 +1,3 @@
-こちらは「HayabusaTrip」のフロントエンドのリポジトリになります。バックエンドのリポジトリは[こちら](https://github.com/keynyaan/hayabusatrip-backend)です。
-
 # EAT FISH / おいしいお魚情報共有サービス
 
 ![service-image](https://github.com/Karukan0814/EatFish_All/blob/master/assets/EatFishImg.png)
@@ -115,24 +113,9 @@ Supabase / render / Vercel
 
 #### 機能
 
-- Google アカウントを利用したユーザー登録 / ログイン機能
-- ユーザー情報変更機能
-- 退会機能
-- 旅行プランの取得 / 作成 / 更新 / 削除機能
-- 旅行プランの検索機能
-- 旅行プランの公開 / 非公開機能
-- 旅行スポットの取得 / 作成 / 更新 / 削除機能
-- Twitter シェア機能
-- ページネーション機能
-- 画像の取得 / アップロード機能
-
-#### 画面
-
-- トースト表示
-- ローディング画面
-- モーダル画面(各画面の詳細は[下記](#screen-transition-diagram)の画面遷移図参照)
-- 404 / 500 エラーのカスタム画面
 - レスポンシブデザイン
+
+TODO 　遷移時のラグ対応や SSR SSD、Next.js の Image タグについて対応の上、記述
 
 #### テスト / セキュリティ
 
