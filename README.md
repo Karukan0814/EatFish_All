@@ -39,21 +39,39 @@ TODO 　開発者アカウント作成
 
 ## 主な機能
 
-### コア機能（カテゴリ絞り込み・ブックマーク+α）
+### コア機能
 
-| カテゴリ絞り込み                                                                                                                    | ブックマーク・いいね                                                                                                                | コメント                                                                                                                                                   |
-| ----------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![Image from Gyazo](https://i.gyazo.com/f43ddd0aca232a7f5df0a193f51a73c0.gif)](https://gyazo.com/f43ddd0aca232a7f5df0a193f51a73c0) | [![Image from Gyazo](https://i.gyazo.com/8910bd2f80c2bf9e5f65e2cb351c3a38.gif)](https://gyazo.com/8910bd2f80c2bf9e5f65e2cb351c3a38) | [![Image from Gyazo](https://i.gyazo.com/001e2dd07b9512f77945cbdcfa0e25a4.gif)](https://gyazo.com/001e2dd07b9512f77945cbdcfa0e25a4)                        |
-| カテゴリアイコンをタップすることで、そのカテゴリに紐付いた記事一覧が表示されます。                                                  | 記事右下の各種ボタンをタップすることで、ブックマークといいねができます （**ログインユーザー限定**）                                 | コメントボタンをタップすると、モーダルが立ち上がり各記事についたコメントを閲覧できたり、コメントの投稿・編集・削除ができます。（**ログインユーザー限定**） |
+レシピ・魚屋・お取り寄せ先一覧
+お魚検索機能
+いいね・ブックマーク機能
+コメント機能
+記事作成機能
+マイページ上で記事を管理
+
+<table>
+  <tr>
+     <th style="text-align: center">記事一覧</th>
+    <th style="text-align: center">お魚検索機能</th>
+    <th style="text-align: center">いいね・ブックマーク機能</th>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/Karukan0814/EatFish_All/blob/master/assets/articleListDemo.gif" alt="記事一覧" /></td>
+    <td><img src="https://github.com/Karukan0814/EatFish_All/blob/master/assets/searchDemo.gif" alt="お魚検索機能" /></td>
+    <td><img src="https://github.com/Karukan0814/EatFish_All/blob/master/assets/likeBookmarkDemo.gif" alt="いいね・ブックマーク機能" /></td>
+  </tr>
+  <tr>
+     <th style="text-align: center">コメント機能</th>
+     <th style="text-align: center">記事作成機能</th>
+    <th style="text-align: center">マイページ上で記事を管理</th>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/Karukan0814/EatFish_All/blob/master/assets/commentDemo.gif" alt="コメント機能" /></td>
+    <td><img src="https://github.com/Karukan0814/EatFish_All/blob/master/assets/likeBookmarkDemo.gif" alt="記事作成機能" /></td>
+    <td><img src="https://github.com/Karukan0814/EatFish_All/blob/master/assets/mypageDemo.gif" alt="マイページ上で記事を管理" /></td>
+  </tr>
+</table>
 
 <br>
-
-### ユーザー機能
-
-| ログイン                                                                                                                            | マイページ上で記事を管理                                                                                                            |
-| :---------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| [![Image from Gyazo](https://i.gyazo.com/670f1953ffa6efede6bec8c87b1af81a.png)](https://gyazo.com/670f1953ffa6efede6bec8c87b1af81a) | [![Image from Gyazo](https://i.gyazo.com/a3183825d24f38257c3f0b9d2e69fbfa.gif)](https://gyazo.com/a3183825d24f38257c3f0b9d2e69fbfa) |
-| ログインボタンを押すと、モーダルが立ち上がり Google ログインが可能になります。                                                      | マイページ上でブックマークやいいねした記事を管理することができます。                                                                |
 
 <br>
 
@@ -126,9 +144,6 @@ Supabase / render / Vercel
   - スマートフォン
     - Android: Google Chrome
     - iOS: Safari
-
-- Codecov によるコードカバレッジの分析と可視化
-- 脆弱性対応(Dependabot Alerts / Code Scanning Alerts / GitGuardian)
 
 ## インフラ構成図
 
