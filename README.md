@@ -46,6 +46,9 @@ TODO 　開発者アカウント作成
 記事作成機能
 マイページ上で記事を管理
 
+TODO フロントエンドに GithubActions 適応
+TODO フロントエンドにテスト追加
+
 <table>
   <tr>
      <th style="text-align: center">記事一覧</th>
@@ -108,10 +111,6 @@ Supabase / render / Vercel
 **認証:** Firebase Authentication 　/ jsonwebtoken
 
 ## 主要対応一覧
-
-### ユーザー向け
-
-#### 機能
 
 - レスポンシブデザイン
 
