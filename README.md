@@ -67,7 +67,7 @@ TODO フロントエンドにテスト追加
   </tr>
   <tr>
     <td><img src="https://github.com/Karukan0814/EatFish_All/blob/master/assets/commentDemo.gif" alt="コメント機能" /></td>
-    <td><img src="https://github.com/Karukan0814/EatFish_All/blob/master/assets/likeBookmarkDemo.gif" alt="記事作成機能" /></td>
+    <td><img src="https://github.com/Karukan0814/EatFish_All/blob/master/assets/createArticleDemo.gif" alt="記事作成機能" /></td>
     <td><img src="https://github.com/Karukan0814/EatFish_All/blob/master/assets/mypageDemo.gif" alt="マイページ上で記事を管理" /></td>
   </tr>
 </table>
