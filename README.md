@@ -133,6 +133,8 @@ Supabase / render / Vercel
 
 ![infrastructure-diagram](https://github.com/Karukan0814/EatFish_All/blob/master/assets/infrastructure.drawio.png)
 TODO フロントエンドのテストを追加
+TODO Renderにデプロイ時にDockerをかませる
+
 
 ## ER 図
 
