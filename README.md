@@ -39,6 +39,7 @@ TODO 　開発者アカウント作成
 
 ### コア機能
 
+季節のお魚紹介一覧
 レシピ・魚屋・お取り寄せ先一覧
 お魚検索機能
 いいね・ブックマーク機能
@@ -46,28 +47,38 @@ TODO 　開発者アカウント作成
 記事作成機能
 マイページ上で記事を管理
 
-TODO フロントエンドに GithubActions 適応
 TODO フロントエンドにテスト追加
 
 <table>
   <tr>
      <th style="text-align: center">記事一覧</th>
-    <th style="text-align: center">お魚検索機能</th>
-    <th style="text-align: center">いいね・ブックマーク機能</th>
+    <th style="text-align: center">季節のお魚一覧</th>
   </tr>
   <tr>
     <td><img src="https://github.com/Karukan0814/EatFish_All/blob/master/assets/articleListDemo.gif" alt="記事一覧" /></td>
-    <td><img src="https://github.com/Karukan0814/EatFish_All/blob/master/assets/searchDemo.gif" alt="お魚検索機能" /></td>
-    <td><img src="https://github.com/Karukan0814/EatFish_All/blob/master/assets/likeBookmarkDemo.gif" alt="いいね・ブックマーク機能" /></td>
+    <td><img src="https://github.com/Karukan0814/EatFish_All/blob/master/assets/searchDemo.gif" alt="お魚検索機能" />季節ごとにおすすめのお魚を紹介しています。</td>
+    
   </tr>
   <tr>
+    <th style="text-align: center">お魚検索機能</th>
+    <th style="text-align: center">いいね・ブックマーク機能</th>
      <th style="text-align: center">コメント機能</th>
-     <th style="text-align: center">記事作成機能</th>
+
+  </tr>
+  <tr>
+    <td><img src="https://github.com/Karukan0814/EatFish_All/blob/master/assets/searchDemo.gif" alt="お魚検索機能" /></td>
+    <td><img src="https://github.com/Karukan0814/EatFish_All/blob/master/assets/likeBookmarkDemo.gif" alt="いいね・ブックマーク機能" /></td>
+    <td><img src="https://github.com/Karukan0814/EatFish_All/blob/master/assets/commentDemo.gif" alt="コメント機能" /></td>
+
+  </tr>
+  <tr>
+     <th style="text-align: center">記事作成機能①</th>
+     <th style="text-align: center">記事作成機能②</th>
     <th style="text-align: center">マイページ上で記事を管理</th>
   </tr>
   <tr>
     <td><img src="https://github.com/Karukan0814/EatFish_All/blob/master/assets/commentDemo.gif" alt="コメント機能" /></td>
-    <td><img src="https://github.com/Karukan0814/EatFish_All/blob/master/assets/createArticleDemo.gif" alt="記事作成機能" /></td>
+    <td><img src="https://github.com/Karukan0814/EatFish_All/blob/master/assets/createArticleDemo.gif" alt="記事作成機能" />選択したお魚と関係ないURLをアップロードしようとした際はreject</td>
     <td><img src="https://github.com/Karukan0814/EatFish_All/blob/master/assets/mypageDemo.gif" alt="マイページ上で記事を管理" /></td>
   </tr>
 </table>
@@ -112,9 +123,9 @@ Supabase / render / Vercel
 
 ## 主要対応一覧
 
+- Next.js の Image / Link コンポーネントなどの活用
+- Next.js の SSG と SSR を使用した SEO 最適化、パフォーマンスの向上
 - レスポンシブデザイン
-
-TODO 　遷移時のラグ対応や SSR SSD、Next.js の Image タグについて対応の上、記述
 
 #### テスト / セキュリティ
 
@@ -134,8 +145,4 @@ TODO 　遷移時のラグ対応や SSR SSD、Next.js の Image タグについ�
 ## ER 図
 
 ![er-diagram](https://github.com/Karukan0814/EatFish_All/blob/master/assets/Supbase%20Schema.png)
-<a id="screen-transition-diagram"></a>
-
-## 画面遷移図
-
-[Figma\_画面遷移図](https://www.figma.com/file/1OgxVeGaDw9riHGzxyGoLG/%E7%94%BB%E9%9D%A2%E9%81%B7%E7%A7%BB%E5%9B%B3_HayabusaTrip?type=design&node-id=0-1&mode=design)
+https://supabase-schema.vercel.app/で自動作成
