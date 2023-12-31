@@ -49,8 +49,8 @@ TODO 　開発者アカウント作成
 
 TODO フロントエンドにテスト追加
 
-<table　 style="width: 100%; ">
-  <tr>
+<table style="width: 100%; ">
+   <tr>
      <th style="text-align: center; width: 50%;">季節のお魚一覧</th>
     <th style="text-align: center; width: 50%;">記事一覧</th>
   </tr>
@@ -59,8 +59,6 @@ TODO フロントエンドにテスト追加
     <td><img src="https://github.com/Karukan0814/EatFish_All/blob/master/assets/articleListDemo.gif" alt="記事一覧" /></td>
     
   </tr>
-</table>
-<table style="width: 100%; ">
   <tr>
     <th style="text-align: center; width: 33%;">お魚検索機能</th>
     <th style="text-align: center; width: 33%;">いいね・ブックマーク機能</th>
