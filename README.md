@@ -59,6 +59,8 @@ TODO フロントエンドにテスト追加
     <td><img src="https://github.com/Karukan0814/EatFish_All/blob/master/assets/searchDemo.gif" alt="お魚検索機能" />季節ごとにおすすめのお魚を紹介しています。</td>
     
   </tr>
+  </table>
+  <table>
   <tr>
     <th style="text-align: center">お魚検索機能</th>
     <th style="text-align: center">いいね・ブックマーク機能</th>
