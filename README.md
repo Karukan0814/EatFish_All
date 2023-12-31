@@ -49,38 +49,28 @@ TODO 　開発者アカウント作成
 
 TODO フロントエンドにテスト追加
 
-<table style="width: 100%; ">
-   <tr>
-     <th style="text-align: center; width: 50%;">季節のお魚一覧</th>
-    <th style="text-align: center; width: 50%;">記事一覧</th>
+<table>
+  <tr>
+     <th style="text-align: center">記事一覧</th>
+    <th style="text-align: center">お魚検索機能</th>
+    <th style="text-align: center">いいね・ブックマーク機能</th>
   </tr>
   <tr>
-    <td><img src="https://github.com/Karukan0814/EatFish_All/blob/master/assets/searchDemo.gif" alt="お魚検索機能" /></td>
     <td><img src="https://github.com/Karukan0814/EatFish_All/blob/master/assets/articleListDemo.gif" alt="記事一覧" /></td>
-    
-  </tr>
-  <tr>
-    <th style="text-align: center; width: 33%;">お魚検索機能</th>
-    <th style="text-align: center; width: 33%;">いいね・ブックマーク機能</th>
-     <th style="text-align: center; width: 33%;">コメント機能</th>
-
-  </tr>
-  <tr>
     <td><img src="https://github.com/Karukan0814/EatFish_All/blob/master/assets/searchDemo.gif" alt="お魚検索機能" /></td>
     <td><img src="https://github.com/Karukan0814/EatFish_All/blob/master/assets/likeBookmarkDemo.gif" alt="いいね・ブックマーク機能" /></td>
+  </tr>
+  <tr>
+     <th style="text-align: center">コメント機能</th>
+     <th style="text-align: center">記事作成機能</th>
+    <th style="text-align: center">マイページ上で記事を管理</th>
+  </tr>
+  <tr>
     <td><img src="https://github.com/Karukan0814/EatFish_All/blob/master/assets/commentDemo.gif" alt="コメント機能" /></td>
-  </tr>
-  <tr>
-     <th style="text-align: center; width: 33%;">記事作成機能１</th>
-     <th style="text-align: center; width: 33%;">記事作成機能２</th>
-    <th style="text-align: center; width: 33%;">マイページ上で記事を管理</th>
-  </tr>
-  <tr>
-    <td><img src="https://github.com/Karukan0814/EatFish_All/blob/master/assets/createArticleDemo.gif" alt="記事作成機能" />おススメのお魚の記事を見つけたら簡単にアップロード・共有できます。</td>
-    <td><img src="https://github.com/Karukan0814/EatFish_All/blob/master/assets/createArticleDemo.gif" alt="記事作成機能" />URLを精査して関連のあるお魚を指定しているかチェックします。</td>
+    <td><img src="https://github.com/Karukan0814/EatFish_All/blob/master/assets/createArticleDemo.gif" alt="記事作成機能" /></td>
     <td><img src="https://github.com/Karukan0814/EatFish_All/blob/master/assets/mypageDemo.gif" alt="マイページ上で記事を管理" /></td>
   </tr>
-</tablestyle=>
+</table>
 
 <br>
 
