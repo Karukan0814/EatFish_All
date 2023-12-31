@@ -47,7 +47,6 @@ TODO 　開発者アカウント作成
 記事作成機能
 マイページ上で記事を管理
 
-TODO フロントエンドにテスト追加
 
 <table>
   <tr>
@@ -130,6 +129,7 @@ Supabase / render / Vercel
 ## インフラ構成図
 
 ![infrastructure-diagram](https://github.com/Karukan0814/EatFish_All/blob/master/assets/infrastructure.drawio.png)
+TODO フロントエンドのテストを追加
 
 ## ER 図
 
