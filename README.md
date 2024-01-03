@@ -22,6 +22,8 @@ https://eatfish-psi.vercel.app/
 
 レスポンシブ対応済のため、PC でもスマートフォンでも快適にご利用いただけます。
 
+TODO 　本格公開する際に Render を有料版にする※現在、しばらく触らないとサーバーが止まる。
+
 ### ▼ 紹介記事(Qiita)
 
 TODO 　紹介記事書く
@@ -31,6 +33,7 @@ TODO 　紹介記事書く
 ### ▼ 開発者 Twitter
 
 TODO 　開発者アカウント作成
+※アカウント名を 統一できるか確認
 
 何かあれば、こちらまでお気軽にご連絡ください。
 
@@ -49,7 +52,6 @@ TODO 　開発者アカウント作成
 コメント機能
 記事作成機能
 マイページ上で記事を管理
-
 
 <table>
   <tr>
@@ -133,8 +135,7 @@ Supabase / render / Vercel
 
 ![infrastructure-diagram](https://github.com/Karukan0814/EatFish_All/blob/master/assets/infrastructure.drawio.png)
 TODO フロントエンドのテストを追加
-TODO Renderにデプロイ時にDockerをかませる
-
+TODO Render にデプロイ時に Docker をかませる
 
 ## ER 図
 
